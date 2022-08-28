@@ -1,0 +1,150 @@
+.App {
+  /* text-align: center; */
+  width: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#navbar{
+  display: flex;
+  width: 95%;
+  height: 60px;
+  justify-content: space-between;
+  margin: auto;
+}
+#nav{
+  display: flex;
+  /* justify-content: space-between; */
+  margin-left: -5%;
+  margin-top: 10px;
+}
+
+#nav>p{
+  display: flex;
+  margin-left: 30px;
+  font-weight: bold;
+}
+#search{
+  margin-left: 50px;
+  padding: 7px 70px 7px 70px;
+}
+#signin{
+  margin-top: 20px;
+  font-weight: bold;
+}
+#cart{
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#cart_img{
+  width: 100%;
+  height: 100%;
+  /* margin-left: 10%; */
+}
+#input{
+  margin-top: 20px;
+}
+#q{
+font-weight: bold;
+text-align: center;
+}
+#img1_div{
+  display: flex;
+  width: 100%;
+}
+#img1_div>img{
+  width: 50%;
+}
+#img2_div{
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+#img2_div>img{
+  width: 50%;
+}
+#box_1{
+  margin-top: 40px;
+}
+#img3_div{
+  /* display: flex; */
+  width: 100%;
+  margin: auto;
+  margin-top: 100px;
+}
+#img3_div>img{
+  width: 100%;
+}
+#boxx{
+  display: flex;
+  margin-top: 50px;
+  /* width: 96%; */
+  /* border: 1px solid black; */
+  justify-content: space-around;
+  margin: auto;
+}
+#product>p{
+  font-weight: bolder;
+  font-size: 20px;
+  text-decoration: underline;
+}
+#product>img{
+width: 80%;
+}
+#p_box{
+  /* border: 1px solid black; */
+  margin-top: 50px;
+}
+#footer_1{
+  
+  margin-top: 100px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+#f_1{
+  display: flex;
+  /* justify-content: space-between; */
+}
+#f_2{
+  margin-left: 100px;
+}
+#ff{
+  margin-top: 70px;
+  background-color: grey;
+}
